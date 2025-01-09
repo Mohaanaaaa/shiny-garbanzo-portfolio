@@ -5,7 +5,7 @@ function App() {
   const [theme, setTheme] = useState('dark');
   const [isTyping, setIsTyping] = useState(true);
   const [typedText, setTypedText] = useState('');
-  const fullText = "Backend Developer & System Architect";
+  const fullText = "Backend  Developer";
 
   useEffect(() => {
     if (isTyping) {
@@ -98,7 +98,7 @@ function App() {
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full hover:bg-gray-700/20">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="mailto:your.email@example.com" className="p-2 rounded-full hover:bg-gray-700/20">
+            <a href="mailto: mohanay52@gmail.com" className="p-2 rounded-full hover:bg-gray-700/20">
               <Mail className="w-5 h-5" />
             </a>
           </div>
@@ -115,7 +115,7 @@ function App() {
               className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
             />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">John Doe</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Mohanaa</h1>
           <div className="h-8">
             <p className="text-xl md:text-2xl text-gray-400">{typedText}<span className="animate-blink">|</span></p>
           </div>
@@ -124,7 +124,7 @@ function App() {
               View Projects
             </button>
             <button className="px-6 py-3 border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">
-              Download Resume
+              Download CV
             </button>
           </div>
         </div>
@@ -149,7 +149,7 @@ function App() {
               <div className="flex flex-wrap gap-4 mt-6">
                 <div className="flex items-center gap-2">
                   <Globe className="w-5 h-5 text-blue-500" />
-                  <span>Based in San Francisco, CA</span>
+                  <span>Based in Bengaluru, India</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Code2 className="w-5 h-5 text-green-500" />
