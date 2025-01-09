@@ -79,6 +79,18 @@ function App() {
       description: 'Stream processing engine for real-time data analytics',
       tech: ['Rust', 'Apache Kafka', 'ClickHouse', 'WebSocket'],
       icon: <Cloud className="w-6 h-6" />
+    },
+    {
+      title: 'Bengaluru Roads',
+      description: 'Helpful platform know the road/traffic conditions with admin auth ',
+      tech: ['React + Vite', 'CSS', 'MySQL'],
+      icon: <Cloud className="w-6 h-6" />
+    },
+    {
+      title: 'Retro type portfolio',
+      description: 'A simple portfolio ',
+      tech: ['React + Vite', 'CSS'],
+      icon: <Cloud className="w-6 h-6" />
     }
   ];
 
