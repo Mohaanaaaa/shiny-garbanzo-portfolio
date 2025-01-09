@@ -92,7 +92,7 @@ function App() {
             <button onClick={toggleTheme} className="p-2 rounded-full hover:bg-gray-700/20">
               {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full hover:bg-gray-700/20">
+            <a href="https://github.com/Mohaanaaaa" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full hover:bg-gray-700/20">
               <Github className="w-5 h-5" />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full hover:bg-gray-700/20">
@@ -137,14 +137,20 @@ function App() {
           <div className={`p-8 rounded-xl ${theme === 'dark' ? 'bg-gray-800/50' : 'bg-white/50'} backdrop-blur-md`}>
             <div className="space-y-6">
               <p className="text-lg leading-relaxed">
-                I'm a passionate Backend Developer with over 8 years of experience in building scalable distributed systems 
-                and high-performance APIs. My expertise lies in designing robust architectures that can handle millions of 
-                requests while maintaining high availability and data consistency.
+                Hi everyone, I am Mohana Y from Bengaluru, India.
               </p>
               <p className="text-lg leading-relaxed">
-                Throughout my career, I've worked with various technologies and frameworks, always focusing on creating 
-                efficient, maintainable, and secure backend solutions. I'm particularly interested in distributed systems, 
-                cloud architecture, and performance optimization.
+                I'm a passionate Backend Developer with over 1 years of experience in building scalable distributed systems 
+                and high-performance APIs.
+              </p>
+              <p className="text-lg leading-relaxed">
+                I am a quick learner with a high level of adaptability. You can find me exploring new technologies or battling bugs in the digital dungeon.
+              </p>
+              <p className="text-lg leading-relaxed">
+                 Although, I refuse to limit myself to that role. For instance, this portfolio was entirely built by me using AI, showcasing my ability to utilize AI to its fullest potential.
+              </p>
+              <p className="text-lg leading-relaxed">
+                "Beyond coding, I enjoy reading books, traveling in nature, and playing both indoor and outdoor games. Additionally, I have a passion for wildlife photography, where I capture the beauty of the natural world."
               </p>
               <div className="flex flex-wrap gap-4 mt-6">
                 <div className="flex items-center gap-2">
@@ -153,7 +159,7 @@ function App() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Code2 className="w-5 h-5 text-green-500" />
-                  <span>8+ Years Experience</span>
+                  <span>1+ Years Experience</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Terminal className="w-5 h-5 text-purple-500" />
